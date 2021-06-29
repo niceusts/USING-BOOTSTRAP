@@ -1,37 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
     <title>Minha página</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a href="a" class="navbar-brand">
-                <img src="img/sucesso.jpg" alt="sucesso" width="100" height="70">
-            </a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Quem somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Serviços</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+</head>
 
-        <section id="quem-somos">
-            <div class="container=fluid quem-somos text-center margin">
-                <p class="cor">teste</p>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="a" class="navbar-brand">
+            <img src="img/sucesso.jpg" class="rounded-circle" alt="sucesso" width="75" height="70">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#quem-somos" class="nav-link">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#parceiros" class="nav-link">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="quem-somos">
+        <div class="container=fluid quem-somos text-center margin">
+            <h3 class="margin">Quem somos</h3>
+            <img src="img/OIP.jpg" alt="OIP" class="rounded-circle" width="200" height="200">
+            <h3>somos o resultado da sua empresa</h3>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center margin parceiros">
+            <h3 class="margin">PARCEIROS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/parc.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/parc.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/parc.jpg" width="100%">
+                    </div>
+                </div>
             </div>
-            
-        </section>
-    </body>
-   
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3 class="margin">SERVICOS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Significado de Texto-base: Textos de referência, que servem de apoio para uma atividade prática ou para a produção outro texto teórico.</p>
+                        <img src="img/app1.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Significado de Texto-base: Textos de referência, que servem de apoio para uma atividade prática ou para a produção outro texto teórico.</p>
+                        <img src="img/app2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Significado de Texto-base: Textos de referência, que servem de apoio para uma atividade prática ou para a produção outro texto teórico.</p>
+                        <img src="img/app3.jpg" alt="" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Niceu</p>
+    </footer>
+</body>
+
 </html>
