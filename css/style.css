@@ -1,0 +1,13 @@
+body{
+    background-color: cornsilk;
+}
+
+.navbar{
+    background-color: rgb(255, 223, 79);
+    height: 100px;
+ 
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 1000;
+}
